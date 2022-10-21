@@ -27,5 +27,23 @@ Turing machines proved the existence of fundamental limitations on the power of 
    ### ARPANET
   was one of the first general-purpose computer networks. It connected time-sharing computers at government-supported research sites, principally universities in the United States, and it soon became a critical piece of infrastructure for the computer science research community in the United States. Tools and applications—such as the simple mail transfer protocol (SMTP, commonly referred to as e-mail), for sending short messages, and the file transfer protocol (FTP), for longer transmissions—quickly emerged. In order to achieve cost-effective interactive communications between computers, which typically communicate in short bursts of data, ARPANET employed the new technology of packet switching. Packet switching takes large messages (or chunks of computer data) and breaks them into smaller, manageable pieces (known as packets) that can travel independently over any available circuit to the target destination, where the pieces are reassembled. Thus, unlike traditional voice communications, packet switching does not require a single dedicated circuit between each pair of users.
    # Internet and WWW 
-   
+The terms World Wide Web (WWW) and the Internet are so often used interchangeably that the fundamental difference between the two is easily forgotten.
+### WWW is just a common point of connectivity for information sharing that is facilitated by a global network of computers.
+### The internet is a connection between computers and countless other devices that form a huge network of systems. 
+# OSI Model
+The Open Systems Interconnection (OSI) model describes seven layers that computer systems use to communicate over a network. It was the first standard model for network communications, adopted by all major computer and telecommunication companies in the early 1980s
+The modern Internet is not based on OSI, but on the simpler TCP/IP model. However, the OSI 7-layer model is still widely used, as it helps visualize and communicate how networks operate, and helps isolate and troubleshoot networking problems.
+OSI was introduced in 1983 by representatives of the major computer and telecom companies, and was adopted by ISO as an international standard in 1984.
+ ### 7 Layers of OSI
+ 7 Application layer
+ Human-computer interaction layer,
+
+
+
+# DHCP
+DHCP (Dynamic Host Configuration Protocol) is a network management protocol used to dynamically assign an Internet Protocol (IP) address to any device, or node, on a network so they can communicate using IP. DHCP automates and centrally manages these configurations rather than requiring network administrators to manually assign IP addresses to all network devices.
+DHCP will assign new IP addresses in each location when devices are moved from place to place, which means network administrators do not have to manually configure each device with a valid IP address or reconfigure the device with a new IP address if it moves to a new location on the network. Versions of DHCP are available for use in IP version 4 (IPv4) and IP version 6 (IPv6). 
+ ### How does DHCP work?
+ DHCP runs at the application layer of the Transmission Control Protocol/IP (TCP/IP) stack to dynamically assign IP addresses to DHCP clients and to allocate TCP/IP configuration information to DHCP clients. This includes subnet mask information, default gateway IP addresses and domain name system (DNS) addresses.
+ DHCP is a client-server protocol in which servers manage a pool of unique IP addresses, as well as information about client configuration parameters, and assign addresses out of those address pools. DHCP-enabled clients send a request to the DHCP server whenever they connect to a network.
     
