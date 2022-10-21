@@ -34,13 +34,22 @@ The terms World Wide Web (WWW) and the Internet are so often used interchangeabl
 The Open Systems Interconnection (OSI) model describes seven layers that computer systems use to communicate over a network. It was the first standard model for network communications, adopted by all major computer and telecommunication companies in the early 1980s
 The modern Internet is not based on OSI, but on the simpler TCP/IP model. However, the OSI 7-layer model is still widely used, as it helps visualize and communicate how networks operate, and helps isolate and troubleshoot networking problems.
 OSI was introduced in 1983 by representatives of the major computer and telecom companies, and was adopted by ISO as an international standard in 1984.
- ### 7 Layers of OSI
- 7 Application layer
- Human-computer interaction layer,
-
-
-
-# DHCP
+ ### The Seven Layers of OSI
+  #### 7. Application layer
+ Human-computer interaction layer,where applications can access the network services.
+  #### 6. Presentation layer
+ It ensures that data is in a usable format and is where data encryption occurs.
+  #### 5.Session layer 
+ Maintains connections and is responsible for controllilng ports and sessions.
+  #### 4. Transport layer
+ transmits data using transmission protocols including TCP(Transmission Datagram Protocol) and UDP(User Control Protocol).
+  #### 3. Network layer
+ Decides which physical path the data will take.
+  #### 2. Data Link layer
+  Defines the format of data on the neetwork.
+   #### 1.Physical layer
+   Transmits raw bit stream over the physical medium.
+ # DHCP
 DHCP (Dynamic Host Configuration Protocol) is a network management protocol used to dynamically assign an Internet Protocol (IP) address to any device, or node, on a network so they can communicate using IP. DHCP automates and centrally manages these configurations rather than requiring network administrators to manually assign IP addresses to all network devices.
 DHCP will assign new IP addresses in each location when devices are moved from place to place, which means network administrators do not have to manually configure each device with a valid IP address or reconfigure the device with a new IP address if it moves to a new location on the network. Versions of DHCP are available for use in IP version 4 (IPv4) and IP version 6 (IPv6). 
  ### How does DHCP work?
